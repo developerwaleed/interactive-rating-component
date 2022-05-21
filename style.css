@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;700&display=swap');
 
 
 :root {
@@ -105,6 +105,41 @@ body {
 .submit-btn:focus {
     background-color: var(--White);
     color: var(--Orange);
+}
+
+.submit-window {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Dark-Blue);
+    padding: 20px;
+    margin: auto auto;
+    border-radius: 10px;
+    gap: 13px;
+}
+
+.sected-rating {
+    background-color: var(--backgroud);
+    color: var(--Orange);
+    font-size: 10px;
+    font-weight: 200;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.title {
+    color: var(--White);
+}
+
+.submit-description {
+    color: var(--Light-Grey);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 @media (min-width: 420px)
