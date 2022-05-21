@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+
 
 :root {
     --Orange: hsl(25, 97%, 53%);
@@ -7,9 +8,101 @@
     --Medium-Grey: hsl(216, 12%, 54%);
     --Dark-Blue: hsl(213, 19%, 18%);
     --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --backgroud: hsl(211, 19%, 23%);
 }
- * {
-     padding: 0;
-     margin: 0;
-     font-family: 'Overpass', sans-serif;
- }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--Dark-Blue);
+    padding: 20px;
+    margin: auto auto;
+    height: 340px;
+    width: 20rem;
+    border-radius: 10px;
+    gap: 13px;
+}
+
+.star-icon {
+    background: var(--backgroud);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.description-header {
+    color: var(--White);
+    font-size: 12px;
+}
+
+.details {
+    color: var( --Light-Grey);
+    font-size: 15px;
+    padding: 20px 0;
+    font-weight: 400;
+}
+
+.rating-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.btn {
+    margin-left: 10px;
+    background-color: var(--backgroud);
+    color: var(--Light-Grey);
+    text-align: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--Medium-Grey);
+    color: var(--White);
+}
+
+.btn:focus {
+    background-color: var(--Orange);
+    color: var(--White);
+}
+
+.submit-btn {
+    background-color: var(--Orange);
+    color: var(--White);
+    text-align: center;
+    font-weight: 800;
+    border: none;
+    align-self: center;
+    justify-self: center;
+    width: 210px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.submit-btn:focus {
+    background-color: var(--White);
+    color: var(--Orange);
+}
