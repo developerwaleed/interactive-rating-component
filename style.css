@@ -106,3 +106,29 @@ body {
     background-color: var(--White);
     color: var(--Orange);
 }
+
+@media (min-width: 420px)
+{
+    .rating-container {
+        height: 340px;
+        width: 21rem;
+        gap: 15px;
+    }
+
+    .submit-btn {
+        width: 300px;
+        height: 30px;
+        border-radius: 30px;
+    }
+
+    .btn {
+        margin-left: 10px;
+        background-color: var(--backgroud);
+        color: var(--Light-Grey);
+        text-align: center;
+        height: 2.8rem;
+        width: 2.8rem;
+        border-radius: 30px;
+        border: none;
+    }
+}
