@@ -108,11 +108,10 @@ body {
 }
 
 .submit-window {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--Dark-Blue);
     padding: 20px;
     margin: auto auto;
     border-radius: 10px;
@@ -140,6 +139,10 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+}
+
+.select-rating-container{ 
+    display: none;
 }
 
 @media (min-width: 420px)
