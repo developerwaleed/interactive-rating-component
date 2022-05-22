@@ -36,7 +36,6 @@ body {
     height: 340px;
     width: 20rem;
     border-radius: 10px;
-    gap: 13px;
 }
 
 .star-icon {
@@ -142,6 +141,10 @@ body {
 }
 
 .select-rating-container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
     display: none;
 }
 
