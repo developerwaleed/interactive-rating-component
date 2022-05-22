@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="./index.js"></script>
     <title>Interactive rating component</title>
 
 <body>
     <div class="rating-container">
-        <div class="select-rating-container">
+        <div class="select-rating-container" id="Select-container">
             <div class="header">
                 <img class="star-icon" src="./images/icon-star.svg" alt="favicon">
             </div>
@@ -28,15 +29,19 @@
                         <button type="button" class="btn" id="btn5">5</button>
                     </div>
                     <div class="submit-div"><button type="submit" class="submit-btn" id="submit">Submit</button></div>
+                    <div id="display-error">
+                        Please Select any Rating!
+                    </div>
+
                 </div>
             </div>
         </div>
 
-        <div class="submit-window">
+        <div class="submit-window" id="Submit-Window">
             <div class="image">
                 <img src="./images/illustration-thank-you.svg" alt="Thankyou!">
             </div>
-            <div class="sected-rating">You Selectd 4 out of 5</div>
+            <div class="sected-rating" id="Selected-Rating"></div>
             <div class="submit-description">
                 <div class="title">
                     <h1>Thank You!</h1>
