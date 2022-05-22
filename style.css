@@ -106,8 +106,7 @@ body {
 
 .submit-window {
   background-color: var(--Dark-Blue);
-
-  /* display: flex; */
+  width: 90vw;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -155,6 +154,11 @@ body {
   padding: 15px 25px;
 }
 
+#display-error {
+  display: none;
+  color: var(--Orange);
+}
+
 @media (min-width: 480px) {
   .rating-container {
     height: 450px;
@@ -189,6 +193,7 @@ body {
 
   .submit-window {
     gap: 21px;
+    width: auto;
   }
 
   .sected-rating {
