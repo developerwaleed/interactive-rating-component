@@ -66,8 +66,8 @@ body {
 
 .btn {
   margin-left: 10px;
-  background-color: var(--backgroud);
-  color: var(--Light-Grey);
+  background-color: var(--Medium-Grey);
+  color: var(--Dark-Blue);
   text-align: center;
   height: 6.2vh;
   width: 14.3vw;
