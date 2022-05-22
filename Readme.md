@@ -5,7 +5,7 @@ Desktop View                     |  Desktop-Submit-View
 ![](../images/Screenshots/Desktop-View.PNG)                              |  ![](../images/Screenshots/Desktop-View-submit.PNG)
 Mobile view                      |  Mobile-Submit-View view                             |
 :------------------------------------------------:|:-----------------------------------------------:
-![](../images/Screenshots/Mobile-View.PNG)|![](../images/Screenshots/Mobile-View-Submit.PNG)
+![](./images/Screenshots/Mobile-View.PNG)|![](./images/Screenshots/Mobile-View-Submit.PNG)
 
 ## Welcome! 👋
 
