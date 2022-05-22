@@ -36,7 +36,6 @@ body {
     height: 340px;
     width: 20rem;
     border-radius: 10px;
-    gap: 13px;
 }
 
 .star-icon {
@@ -108,11 +107,10 @@ body {
 }
 
 .submit-window {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--Dark-Blue);
     padding: 20px;
     margin: auto auto;
     border-radius: 10px;
@@ -140,6 +138,14 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+}
+
+.select-rating-container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    display: none;
 }
 
 @media (min-width: 420px)
