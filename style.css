@@ -65,6 +65,7 @@ body {
 }
 
 .btn {
+  cursor: pointer;
   margin-left: 10px;
   background-color: var(--Medium-Grey);
   color: var(--Dark-Blue);
@@ -86,6 +87,7 @@ body {
 }
 
 .submit-btn {
+  cursor: pointer;
   background-color: var(--Orange);
   color: var(--White);
   text-align: center;
