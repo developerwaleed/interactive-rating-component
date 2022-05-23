@@ -1,20 +1,13 @@
 const submitContainer = document.getElementById('Selected-Rating');
+const btnSelector = document.getElementsByClassName('btn');
 
-document.getElementById('btn1').addEventListener('click', () => {
-  submitContainer.innerHTML = 'You Selected 1 out of 5';
-});
-document.getElementById('btn2').addEventListener('click', () => {
-  submitContainer.innerHTML = 'You Selected 2 out of 5';
-});
-document.getElementById('btn3').addEventListener('click', () => {
-  submitContainer.innerHTML = 'You Selected 3 out of 5';
-});
-document.getElementById('btn4').addEventListener('click', () => {
-  submitContainer.innerHTML = 'You Selected 4 out of 5';
-});
-document.getElementById('btn5').addEventListener('click', () => {
-  submitContainer.innerHTML = 'You Selected 5 out of 5';
-});
+function submitRating() {
+  for (let i = 0; i < btnSelector.length; i += 1) {
+    btnSelector[i].addEventListener('click', () => {
+      submitContainer.innerHTML = `You Selected ${i += 1} out of 5`;
+    });
+  }
+}
 
 document.getElementById('submit').addEventListener('click', () => {
   if (submitContainer.childNodes.length === 0) {
@@ -24,3 +17,5 @@ document.getElementById('submit').addEventListener('click', () => {
     document.getElementById('Submit-Window').style.display = 'flex';
   }
 });
+
+submitRating();
